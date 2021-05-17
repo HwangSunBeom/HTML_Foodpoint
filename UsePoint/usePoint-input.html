@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UsePoint</title>
+    <style>
+        /* 임시 CSS */
+        .container {
+            margin-top: 150px;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: separate;
+            border-spacing: 0 50px;
+        }
+
+        tr {
+            padding-bottom: 200px;
+        }
+
+        span {
+            font-size: 2rem;
+        }
+
+        .text {
+            margin-right: 20px;
+        }
+
+        .point {
+            margin-left: 18px;
+        }
+
+        input[type=text] {
+            width: 80px;
+            height: 50px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .confirm {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .confirmBtn {
+            background-color: skyblue;
+            outline: none;
+            border: 0;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr class="current-point">
+                <td><span class="text">현재 포인트</span></td>
+                <td><span class="point">500  p</span></td>
+            </tr>
+            <tr class="willuse-point">
+                <td><span class="text">사용할 포인트</span></td>
+                <td><span><input class="willuse" type="text">p</span></td>
+            </tr>
+        </table>
+        <div class="confirm">
+            <a href="#"><button class="confirmBtn">확인</button></a>
+        </div>
+    </div>
+</body>
+</html>
