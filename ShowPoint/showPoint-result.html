@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterStore</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color:black;
+            margin-left: 50px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-right: 70px;
+        }
+
+        #navbar {
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            align-items: center;
+            color: white;
+            padding: 16px;
+            padding-bottom: 12px;
+            width: 100%;
+            height: 8%;
+            box-shadow: 0px 1px 2px 1px lightgrey;
+        }
+
+        #logo {
+            font-size: 2rem;
+        }
+
+        .navbar_menu {
+            display: flex;
+        }
+
+        .navbar_item {
+            padding: 8px 12px;
+            margin: 0 4px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-size: 1.3rem;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .showPoint_container {
+            margin-top: 80px;
+            margin-right: 20px;
+            width: 30%;
+            height: 300px;
+            background-color: white;
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+        
+        .showPoint_user {
+            margin: 0;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding-left: 40px;
+            padding-right: 40px;
+            color: gray;
+            font-size: 1rem;
+        }
+
+        .showPoint_title {
+            margin-bottom: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 1.5rem;
+        }
+
+        .showPoint_point {
+            font-size: 3rem;
+        }
+
+        .detail_container {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            width: 50%;
+        }
+        
+        .detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+
+        .detail_date {
+            margin-left: 100px;
+            margin-right: 30px;
+            font-size: 1.2rem;
+        }
+
+        .detail_store {
+            margin-left: 20px;
+            font-size: 1.2rem;
+        }
+
+        .detail_point {
+            margin-right: 100px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navbar_logo">
+            <a id="logo" href="#">푸포</a>
+        </div>
+        <ul class="navbar_menu">
+            <li class="navbar_item"><a href="#">가게 등록</a></li>
+            <li class="navbar_item"><a href="#">포인트 조회</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class = "showPoint_container">
+            <h3 class="showPoint_user">010-1234-5678 님</h3>
+            <h3 class="showPoint_title">현재 포인트</h3>
+            <h1 class="showPoint_point">500p</h1>
+        </div>
+        <div class="detail_container">
+            <div class = "detail">
+                <div>
+                <span class="detail_date">5/18</span>
+                <span class="detail_store">진국 숭실대점</span>
+                </div>
+                <span class="detail_point">+500p</span>
+            </div>
+            <div class = "detail">
+                <div>
+                <span class="detail_date">5/17</span>
+                <span class="detail_store">멘동</span>
+                </div>
+                <span class="detail_point">-300p</span>
+            </div>
+            <div class = "detail">
+                <div>
+                    <span class="detail_date">5/16</span>
+                    <span class="detail_store">지지고</span>
+                </div>
+                <span class="detail_point">+1000p</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
