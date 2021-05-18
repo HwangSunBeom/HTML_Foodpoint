@@ -7,9 +7,9 @@
     <title>FoodPoint</title>
     <style>
         body {
+            margin: 0;
             background-color: whitesmoke;
             height: 100vh;
-            overflow: hidden;
         }
         
         a {
@@ -54,6 +54,49 @@
             font-size: 1.3rem;
         }
 
+        #home {
+            margin-top: 1px;
+            padding: 70px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .home_title1 {
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+        }
+
+        .home_title2 {
+            font-size: 1.7rem;
+            color: green;
+            margin-bottom: 30px;
+        }
+
+        #home_contain {
+            text-align: center;
+        }
+
+        .home_subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        #makers {
+            background-color: darkseagreen;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #makers_title {
+            margin-bottom : 32px;
+            font-size: 2rem;
+            color: white;
+        }
+        
+        #makers_email {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -66,5 +109,21 @@
             <li class="navbar_item"><a href="#">포인트 조회</a></li>
         </ul>
     </nav>
+    <!-- Home -->
+    <section id="home">
+        <div id="home_contain">
+            <div class="home_title1">비울수록 채워지는</div> 
+            <b><div class="home_title2">푸포(Food Point)</div></b>
+            <div class="home_subtitle">잔반을 남기지 않을 때마다 포인트를 적립하여</div>
+            <div class="home_subtitle">제휴된 음식점이라면 어디든 포인트를 사용할 수 있고,</div>
+            <div class="home_subtitle">음식물 쓰레기 절감으로 인한 온실가스 배출도 줄일 수 있는 서비스입니다.</div>
+        </div>
+    </section>
+    <!-- Makers -->
+    <section id="makers" class="section">
+        <h1 id="makers_title">만든 이들</h1>
+        <h3 id="makers_email">우동사리 팀</h3>
+        <p id="contact__rights">황순범, 권준상, 신홍석, 정승연</p>
+    </section>
 </body>
 </html>
