@@ -5,102 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RegisterStore</title>
-    <style>
-        body {
-            margin: 0;
-            background-color: whitesmoke;
-            height: 100vh;
-        }
-
-        a {
-            text-decoration: none;
-            color:black;
-            margin-left: 50px;
-        }
-
-        ul {
-            list-style: none;
-            padding-left: 0;
-            margin-right: 70px;
-        }
-
-        #navbar {
-            margin: 0;
-            display: flex;
-            justify-content: space-between;
-            background-color: white;
-            align-items: center;
-            color: white;
-            padding: 16px;
-            padding-bottom: 12px;
-            width: 100%;
-            height: 8%;
-            box-shadow: 0px 1px 2px 1px lightgrey;
-        }
-
-        #logo {
-            font-size: 2rem;
-        }
-
-        .navbar_menu {
-            display: flex;
-        }
-
-        .navbar_item {
-            padding: 8px 12px;
-            margin: 0 4px;
-            cursor: pointer;
-            border: 1px solid transparent;
-            font-size: 1.3rem;
-        }
-        
-        .showPoint_container {
-            display: block;
-            margin: 0 auto;
-            margin-top: 80px;
-            width: 280px;
-            height: 250px;
-            background-color: white;
-            text-align: center;
-            border: 1px solid lightgrey;
-        }
-        
-        .showPoint_title {
-            margin: 0;
-            margin-top: 50px;
-            margin-bottom: 20px;
-            padding-left: 40px;
-            padding-right: 40px;
-            font-size: 15px;
-            color: gray;
-        }
-        
-        .line {
-            width: 80%;
-            border: 1px solid lightgray;
-            margin-bottom: 20px;
-        }
-        
-        .showPoint {
-            width: 70%;
-            background-color: whitesmoke;
-            border: 1px solid lightgrey;
-            border-radius: 3px;
-            padding: 10px;
-            margin-bottom: 5px;
-            font-size: 10px;
-        }
-        
-        #showBtn {
-            margin-top: 25px;
-            width: 78%;
-            color: white;
-            background-color: darkseagreen;
-            padding: 3px;
-            border: none;
-            border-radius: 3px;
-        }
-    </style>
+    <link href="showPoint.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <nav id="navbar">
@@ -112,7 +17,7 @@
             <li class="navbar_item"><a href="#">포인트 조회</a></li>
         </ul>
     </nav>
-    <div class = "showPoint_container">
+    <div class = "showPoint_container_phone">
         <h2 class="showPoint_title">포인트 조회</h2>
         <hr class="line">
         <input type="text" class="showPoint" placeholder="휴대폰 번호를 입력해주세요">

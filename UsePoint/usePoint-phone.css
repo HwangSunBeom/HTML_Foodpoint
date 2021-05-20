@@ -1,0 +1,53 @@
+/* Use Point - Phone */
+body {
+  text-align: center;
+}
+
+.phonenumber_description {
+  margin-top: 100px;
+}
+
+.phonenumber {
+  font-size: 2rem;
+}
+
+.numBtn {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  margin: 5px;
+  border: 0;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 50%;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.confirmBtn {
+  margin-right: 10px;
+  background-color: skyblue;
+  outline: none;
+  border: 0;
+  padding: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.backBtn {
+  margin-left: 5px;
+  background-color: white;
+  outline: none;
+  border: 0;
+  padding: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: black;
+}
